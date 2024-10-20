@@ -6,10 +6,13 @@ import Link from "next/link"
 
 export default function Page() {
 
+  const serverVersion = '1.0.2';
+  const appVersion = '1.0.2';
+
   const urls = {
     win: "",
-    macOS: "https://gyromouse.s3.sa-east-1.amazonaws.com/CelMouse-1.0.1.dmg",
-    macOSm1: "https://gyromouse.s3.sa-east-1.amazonaws.com/CelMouse-1.0.1-arm64.dmg",
+    macOS: `https://gyromouse.s3.sa-east-1.amazonaws.com/CelMouse-${serverVersion}.dmg`,
+    macOSm1: `https://gyromouse.s3.sa-east-1.amazonaws.com/CelMouse-${serverVersion}-arm64.dmg`,
     android: "",
     iPhone: "https://apps.apple.com/br/app/gyromouse/id6736866466",
   }
