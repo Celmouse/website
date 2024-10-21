@@ -11,7 +11,7 @@ export default function Page() {
   // const appVersion = '1.0.2';
 
   const urls = {
-    win: "https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse+Setup+1.0.3.exe",
+    win: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse+Setup+${serverVersion}.exe`,
     linux: "",
     macOS: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse-${serverVersion}.dmg`,
     macOSm1: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse-${serverVersion}-arm64.dmg`,
