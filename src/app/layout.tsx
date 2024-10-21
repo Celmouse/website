@@ -13,7 +13,7 @@ const geistMono = localFont({
   weight: "100 900",
 });
 export const metadata: Metadata = {
-  title: "CelMouse",
+  title: "Celmouse",
   description: "You have all the control in your hands",
 };
 
