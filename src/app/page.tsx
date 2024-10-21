@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Smartphone, Mouse, PresentationIcon, Gamepad2 } from "lucide-react"
+import { Smartphone, Mouse, PresentationIcon, Gamepad2, Keyboard,  SquarePlus, Speech } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Page() {
 
@@ -22,8 +23,8 @@ export default function Page() {
     <div className="flex flex-col min-h-screen">
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <a className="flex items-center justify-center" href="#">
-          <Smartphone className="h-6 w-6" />
-          <span className="ml-2 text-lg font-bold">CelMouse</span>
+          <Image width={32} height={32} src={"/logo.svg"} alt="Logo" />
+          <span className="ml-2 text-lg font-bold">Celmouse</span>
         </a>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <a className="text-sm font-medium hover:underline underline-offset-4" href="#features">
@@ -77,11 +78,38 @@ export default function Page() {
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle>Gaming Enhancement</CardTitle>
+                  <CardTitle>Gaming Enhancement (Beta)</CardTitle>
                   <Gamepad2 className="w-8 h-8" />
                 </CardHeader>
                 <CardContent>
                   <p>Enhance your gaming experience with intuitive motion controls.</p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle>Keyboard Control</CardTitle>
+                  <Keyboard className="w-8 h-8" />
+                </CardHeader>
+                <CardContent>
+                  <p>Control your keyboard by typing on your phone.</p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle>Hotkeys</CardTitle>
+                  <SquarePlus className="w-8 h-8" />
+                </CardHeader>
+                <CardContent>
+                  <p>Easy acess hotkeys to improve performance at work.</p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle>Speech to text</CardTitle>
+                  <Speech className="w-8 h-8" />
+                </CardHeader>
+                <CardContent>
+                  <p>Speak instead of type.</p>
                 </CardContent>
               </Card>
             </div>
@@ -89,7 +117,7 @@ export default function Page() {
         </section>
         <section id="download" className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">Download CelMouse</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">Download Celmouse</h2>
             <Tabs defaultValue="mobile" className="w-full max-w-2xl mx-auto">
               <TabsList className="grid w-full grid-cols-4">
                 <TabsTrigger value="windows">Windows</TabsTrigger>
@@ -114,7 +142,7 @@ export default function Page() {
                     <CardTitle>Apple MacOS Download</CardTitle>
                     <CardDescription>Download CelMouse for Mac</CardDescription>
                   </CardHeader>
-                  <CardContent className="flex justify-center space-x-4">
+                  <CardContent className="flex flex-col justify-start items-start space-y-4">
                     <Button asChild><Link href={urls.macOS}>Download for Apple Mac Intel Chip</Link></Button>
                     <Button asChild><Link href={urls.macOSm1}>Download for Apple Mac Sillicon Chip</Link></Button>
                   </CardContent>
@@ -150,10 +178,10 @@ export default function Page() {
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
         <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 CelMouse. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-          <a className="text-xs hover:underline underline-offset-4" href="#">
+          <a className="text-xs hover:underline underline-offset-4" href="/privacy">
             Terms of Service
           </a>
-          <a className="text-xs hover:underline underline-offset-4" href="#">
+          <a className="text-xs hover:underline underline-offset-4" href="/privacy">
             Privacy
           </a>
         </nav>
