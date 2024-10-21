@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Smartphone, Mouse, PresentationIcon, Gamepad2, Keyboard,  SquarePlus, Speech } from "lucide-react"
+import { Smartphone, Mouse, PresentationIcon, Gamepad2, Keyboard, SquarePlus, Speech } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
@@ -14,7 +14,7 @@ export default function Page() {
     win: "",
     macOS: `https://gyromouse.s3.sa-east-1.amazonaws.com/CelMouse-${serverVersion}.dmg`,
     macOSm1: `https://gyromouse.s3.sa-east-1.amazonaws.com/CelMouse-${serverVersion}-arm64.dmg`,
-    android: "",
+    android: "https://play.google.com/store/apps/details?id=com.gyromouse.app",
     iPhone: "https://apps.apple.com/br/app/gyromouse/id6736866466",
   }
 
@@ -166,8 +166,8 @@ export default function Page() {
                     <CardDescription>Download Celmouse for Android or iOS</CardDescription>
                   </CardHeader>
                   <CardContent className="flex justify-center space-x-4">
-                    <Button disabled>Download for Android</Button>
-                    <Button><Link href={urls.iPhone}>Download for iOS</Link></Button>
+                    <Button asChild><Link href={urls.android}>Download for Android</Link></Button>
+                    <Button asChild><Link href={urls.iPhone}>Download for iOS</Link></Button>
                   </CardContent>
                 </Card>
               </TabsContent>
