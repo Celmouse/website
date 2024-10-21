@@ -12,8 +12,8 @@ export default function Page() {
 
   const urls = {
     win: "",
-    macOS: `https://gyromouse.s3.sa-east-1.amazonaws.com/CelMouse-${serverVersion}.dmg`,
-    macOSm1: `https://gyromouse.s3.sa-east-1.amazonaws.com/CelMouse-${serverVersion}-arm64.dmg`,
+    macOS: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse-${serverVersion}.dmg`,
+    macOSm1: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse-${serverVersion}-arm64.dmg`,
     android: "https://play.google.com/store/apps/details?id=com.gyromouse.app",
     iPhone: "https://apps.apple.com/br/app/gyromouse/id6736866466",
   }
