@@ -129,7 +129,7 @@ export default function Page() {
                 <Card>
                   <CardHeader>
                     <CardTitle>Windows Download</CardTitle>
-                    <CardDescription>Download CelMouse for Windows</CardDescription>
+                    <CardDescription>Download Celmouse for Windows</CardDescription>
                   </CardHeader>
                   <CardContent className="flex justify-center">
                     <Button disabled>Download for Windows</Button>
@@ -140,7 +140,7 @@ export default function Page() {
                 <Card>
                   <CardHeader>
                     <CardTitle>Apple MacOS Download</CardTitle>
-                    <CardDescription>Download CelMouse for Mac</CardDescription>
+                    <CardDescription>Download Celmouse for Mac</CardDescription>
                   </CardHeader>
                   <CardContent className="flex flex-col justify-start items-start space-y-4">
                     <Button asChild><Link href={urls.macOS}>Download for Apple Mac Intel Chip</Link></Button>
@@ -152,7 +152,7 @@ export default function Page() {
                 <Card>
                   <CardHeader>
                     <CardTitle>Linux Download</CardTitle>
-                    <CardDescription>Download CelMouse for Linux</CardDescription>
+                    <CardDescription>Download Celmouse for Linux</CardDescription>
                   </CardHeader>
                   <CardContent className="flex justify-center">
                     <Button disabled>Download for Linux</Button>
@@ -163,7 +163,7 @@ export default function Page() {
                 <Card>
                   <CardHeader>
                     <CardTitle>iOS and Android Download</CardTitle>
-                    <CardDescription>Download CelMouse for Android or iOS</CardDescription>
+                    <CardDescription>Download Celmouse for Android or iOS</CardDescription>
                   </CardHeader>
                   <CardContent className="flex justify-center space-x-4">
                     <Button disabled>Download for Android</Button>
@@ -176,7 +176,7 @@ export default function Page() {
         </section>
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 CelMouse. All rights reserved.</p>
+        <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Celmouse. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <a className="text-xs hover:underline underline-offset-4" href="/privacy">
             Terms of Service
