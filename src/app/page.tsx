@@ -11,7 +11,8 @@ export default function Page() {
   // const appVersion = '1.0.2';
 
   const urls = {
-    win: "",
+    win: "https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse+Setup+1.0.3.exe",
+    linux: "",
     macOS: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse-${serverVersion}.dmg`,
     macOSm1: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse-${serverVersion}-arm64.dmg`,
     android: "https://play.google.com/store/apps/details?id=com.gyromouse.app",
@@ -132,7 +133,7 @@ export default function Page() {
                     <CardDescription>Download Celmouse for Windows</CardDescription>
                   </CardHeader>
                   <CardContent className="flex justify-center">
-                    <Button disabled>Download for Windows</Button>
+                    <Button asChild><Link href={urls.win}>Download for Windows</Link></Button>
                   </CardContent>
                 </Card>
               </TabsContent>
