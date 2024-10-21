@@ -8,7 +8,7 @@ export default function Page(){
       <p><strong>Última atualização:</strong> 18/10/2024</p>
 
       <p>
-        A presente Política de Privacidade descreve como o <strong>GyroMouse</strong> coleta, usa e protege as informações
+        A presente Política de Privacidade descreve como o <strong>Celmouse</strong> coleta, usa e protege as informações
         pessoais dos usuários. Ao utilizar o aplicativo, você concorda com os termos desta política.
       </p>
 
@@ -78,7 +78,7 @@ export default function Page(){
         Se você tiver qualquer dúvida sobre esta Política de Privacidade, entre em contato conosco:
       </p>
       <ul>
-        <li><strong>Nome da Empresa/Aplicativo:</strong> GyroMouse</li>
+        <li><strong>Nome da Empresa/Aplicativo:</strong> Celmouse</li>
         {/* <li><strong>E-mail de contato:</strong> marcelo.ita.boss@gmail.com</li> */}
       </ul>
     </div>
