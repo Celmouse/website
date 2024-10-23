@@ -12,7 +12,7 @@ export default function TermsOfUse() {
             <li>
               <h2 className="text-xl font-semibold">Aceitação dos Termos</h2>
               <p>
-                Ao utilizar o aplicativo Celmouse ${"(Aplicativo)"}, você concorda em cumprir estes Termos de Uso ${("Termos")}. Se você não concordar com algum dos termos descritos, não utilize o Aplicativo.
+                Ao utilizar o aplicativo Celmouse {"(Aplicativo)"}, você concorda em cumprir estes Termos de Uso {("Termos")}. Se você não concordar com algum dos termos descritos, não utilize o Aplicativo.
               </p>
             </li>
 
@@ -48,7 +48,7 @@ export default function TermsOfUse() {
             <li>
               <h2 className="text-xl font-semibold">Limitação de Responsabilidade</h2>
               <p>
-                O Celmouse é fornecido ${'"como está"'}. Não garantimos que o aplicativo estará sempre disponível, livre de erros ou que atenderá a todos os requisitos dos usuários. Na máxima extensão permitida pela lei, o Celmouse e seus desenvolvedores não se responsabilizam por danos indiretos, incidentais ou consequenciais resultantes do uso do Aplicativo.
+                O Celmouse é fornecido {'"como está"'}. Não garantimos que o aplicativo estará sempre disponível, livre de erros ou que atenderá a todos os requisitos dos usuários. Na máxima extensão permitida pela lei, o Celmouse e seus desenvolvedores não se responsabilizam por danos indiretos, incidentais ou consequenciais resultantes do uso do Aplicativo.
               </p>
             </li>
 
