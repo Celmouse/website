@@ -124,7 +124,7 @@ export default function Page() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">Download Celmouse</h2>
             <Tabs defaultValue="mobile" className="w-full max-w-2xl mx-auto">
               <TabsList className="grid w-full grid-cols-4">
-                <TabsTrigger value="windows">Windows ${"(BETA)"}</TabsTrigger>
+                <TabsTrigger value="windows">Windows {"(BETA)"}</TabsTrigger>
                 <TabsTrigger value="mac">Mac</TabsTrigger>
                 <TabsTrigger value="linux">Linux</TabsTrigger>
                 <TabsTrigger value="mobile">Apps</TabsTrigger>
