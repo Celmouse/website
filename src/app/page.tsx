@@ -132,7 +132,7 @@ export default function Page() {
               <TabsContent value="windows" className="mt-6">
                 <Card>
                   <CardHeader>
-                    <CardTitle>Windows Download ${"(BETA)"}</CardTitle>
+                    <CardTitle>Windows Download {"(BETA)"}</CardTitle>
                     <CardDescription>WARNING: Download Celmouse for Windows. Currently on BETA and is beeing tested. Please use with caution!</CardDescription>
                   </CardHeader>
                   <CardContent className="flex justify-center">
