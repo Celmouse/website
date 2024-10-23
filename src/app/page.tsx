@@ -28,11 +28,14 @@ export default function Page() {
           <span className="ml-2 text-2xl font-bold">Celmouse</span>
         </a>
         <nav className="ml-auto flex gap-4 sm:gap-6">
+          <a className="text-sm font-medium hover:underline underline-offset-4" href="#download">
+            Download
+          </a>
           <a className="text-sm font-medium hover:underline underline-offset-4" href="#features">
             Features
           </a>
-          <a className="text-sm font-medium hover:underline underline-offset-4" href="#download">
-            Download
+          <a className="text-sm font-medium hover:underline underline-offset-4" href="https://api.whatsapp.com/send?phone=5533997312898">
+            Contact
           </a>
         </nav>
       </header>
