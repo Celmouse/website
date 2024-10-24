@@ -7,14 +7,15 @@ import Image from "next/image"
 
 export default function Page() {
 
-  const serverVersion = '1.0.3';
+  const winServerVersion = '1.0.3';
+  const macServerVersion = '1.0.4';
   // const appVersion = '1.0.2';
 
   const urls = {
-    win: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse+Setup+${serverVersion}.exe`,
+    win: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse+Setup+${winServerVersion}.exe`,
     linux: "",
-    macOS: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse-${serverVersion}.dmg`,
-    macOSm1: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse-${serverVersion}-arm64.dmg`,
+    macOS: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse-${macServerVersion}.dmg`,
+    macOSm1: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse-${macServerVersion}-arm64.dmg`,
     android: "https://play.google.com/store/apps/details?id=com.gyromouse.app",
     iPhone: "https://apps.apple.com/br/app/gyromouse/id6736866466",
   }
