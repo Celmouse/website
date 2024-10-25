@@ -7,7 +7,7 @@ import Image from "next/image"
 
 export default function Page() {
 
-  const winServerVersion = '1.0.4';
+  const winServerVersion = '1.0.5';
   const macServerVersion = '1.0.4';
   // const appVersion = '1.0.2';
 
