@@ -59,10 +59,10 @@ export default function Page() {
             </div>
           </div>
         </section>
-        <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+        <section id="features" className="w-full flex justify-center py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
           <div className="container px-4 md:px-6">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">Features</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl mb-12">Features</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
               <Card>
                 <CardHeader>
                   <CardTitle>Gyroscope Control</CardTitle>
@@ -78,7 +78,7 @@ export default function Page() {
                   <PresentationIcon className="w-8 h-8" />
                 </CardHeader>
                 <CardContent>
-                  <p>Navigate through slides effortlessly during presentations.</p>
+                  <p>Navigate through slides and midia effortlessly during presentations.</p>
                 </CardContent>
               </Card>
               <Card>
