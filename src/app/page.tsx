@@ -1,13 +1,13 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import {  Mouse, PresentationIcon, Gamepad2, Keyboard, SquarePlus, Speech } from "lucide-react"
+import { Mouse, PresentationIcon, Gamepad2, Keyboard, SquarePlus, Speech } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
 export default function Page() {
 
-  const winServerVersion = '1.0.5';
+  const winServerVersion = '1.1.0';
   const macServerVersion = '1.1.0';
   // const appVersion = '1.0.2';
 
