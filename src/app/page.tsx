@@ -9,11 +9,12 @@ export default function Page() {
 
   const winServerVersion = '1.2.0';
   const macServerVersion = '1.2.0';
+  const linuxServerVersion = '1.2.0';
   // const appVersion = '1.0.2';
 
   const urls = {
     win: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse+Setup+${winServerVersion}.exe`,
-    linux: "",
+    linux: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse-${linuxServerVersion}.AppImage`,
     macOS: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse-${macServerVersion}.dmg`,
     macOSm1: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse-${macServerVersion}-arm64.dmg`,
     android: "https://play.google.com/store/apps/details?id=com.gyromouse.app",
@@ -160,7 +161,7 @@ export default function Page() {
                     <CardDescription>Download Celmouse for Linux</CardDescription>
                   </CardHeader>
                   <CardContent className="flex justify-center">
-                    <Button disabled>Download for Linux</Button>
+                    <Button asChild><Link href={urls.linux}>Download for Linux</Link></Button>
                   </CardContent>
                 </Card>
               </TabsContent>
