@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: 'Celmouse',
     images: [
       {
-        url: 'https://celmouse.com/celmouse_card.png',
+        url: 'https://celmouse.com/opengraph-image.png',
         width: 1280,
         height: 1080,
       },
