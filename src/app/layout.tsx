@@ -18,6 +18,21 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Celmouse",
   description: "You have all the control in your hands",
+  openGraph: {
+    title: 'Celmouse',
+    description: 'You have all the control in your hands',
+    url: 'https://celmouse.com',
+    siteName: 'Celmouse',
+    images: [
+      {
+        url: 'https://celmouse.com/celmouse_card.png',
+        width: 1280,
+        height: 1080,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  }
 };
 
 
