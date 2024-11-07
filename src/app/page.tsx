@@ -13,7 +13,7 @@ export default function Page() {
   // const appVersion = '1.0.2';
 
   const urls = {
-    win: `https://celmouse-us.s3.us-east-1.amazonaws.com/Celmouse+Setup+${winServerVersion}.exe`,
+    win: `https://celmouse-us.s3.us-east-1.amazonaws.com/Celmouse%2BSetup%2B${winServerVersion}.exe`,
     linux: `https://celmouse-us.s3.us-east-1.amazonaws.com/Celmouse-${linuxServerVersion}.AppImage`,
     macOS: `https://celmouse-us.s3.us-east-1.amazonaws.com/Celmouse-${macServerVersion}.dmg`,
     macOSm1: `https://celmouse-us.s3.us-east-1.amazonaws.com/Celmouse-${macServerVersion}-arm64.dmg`,
