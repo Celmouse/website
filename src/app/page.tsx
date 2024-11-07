@@ -13,10 +13,10 @@ export default function Page() {
   // const appVersion = '1.0.2';
 
   const urls = {
-    win: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse+Setup+${winServerVersion}.exe`,
-    linux: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse-${linuxServerVersion}.AppImage`,
-    macOS: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse-${macServerVersion}.dmg`,
-    macOSm1: `https://gyromouse.s3.sa-east-1.amazonaws.com/Celmouse-${macServerVersion}-arm64.dmg`,
+    win: `https://celmouse-us.s3.us-east-1.amazonaws.com/Celmouse+Setup+${winServerVersion}.exe`,
+    linux: `https://celmouse-us.s3.us-east-1.amazonaws.com/Celmouse-${linuxServerVersion}.AppImage`,
+    macOS: `https://celmouse-us.s3.us-east-1.amazonaws.com/Celmouse-${macServerVersion}.dmg`,
+    macOSm1: `https://celmouse-us.s3.us-east-1.amazonaws.com/Celmouse-${macServerVersion}-arm64.dmg`,
     android: "https://play.google.com/store/apps/details?id=com.gyromouse.app",
     iPhone: "https://apps.apple.com/br/app/gyromouse/id6736866466",
   }
