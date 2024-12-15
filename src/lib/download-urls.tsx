@@ -1,6 +1,6 @@
 
-const winServerVersion = '1.2.0';
-const macServerVersion = '1.2.0';
+// const winServerVersion = '1.2.0';
+// const macServerVersion = '1.2.0';
 const linuxServerVersion = '1.2.0';
 // const appVersion = '1.0.2';
 
