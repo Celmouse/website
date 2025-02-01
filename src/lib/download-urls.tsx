@@ -1,6 +1,3 @@
-
-const linuxServerVersion = '1.2.0';
-
 export const downloadUrls = {
   // win: `https://celmouse-us.s3.us-east-1.amazonaws.com/celmouse.exe`,
   // linux: `https://celmouse-us.s3.us-east-1.amazonaws.com/Celmouse-${linuxServerVersion}.AppImage`,
