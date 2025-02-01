@@ -10,13 +10,16 @@ export function DownloadButton() {
 
     useEffect(() => {
         const userAgent = window.navigator.userAgent;
-        if (/Windows/i.test(userAgent)) {
-            setOs('Windows');
-        } else if (/Mac/i.test(userAgent)) {
+        // if (/Windows/i.test(userAgent)) {
+        //     setOs('Windows');
+        // } else 
+        if (/Mac/i.test(userAgent)) {
             setOs('Mac');
-        } else if (/Linux/i.test(userAgent)) {
-            setOs('Linux');
-        } else if (/Android/i.test(userAgent)) {
+        } 
+        // else if (/Linux/i.test(userAgent)) {
+        //     setOs('Linux');
+        // } 
+        else if (/Android/i.test(userAgent)) {
             setOs('Android');
         } else if (/iPhone|iPad|iPod/i.test(userAgent)) {
             setOs('iOS');
@@ -29,9 +32,9 @@ export function DownloadButton() {
 
     return (
         <div>
-            {os === 'Windows' && <Button asChild><Link href={downloadUrls.win}>Download for Windows</Link></Button>}
+            {/* {os === 'Windows' && <Button asChild><Link href={downloadUrls.win}>Download for Windows</Link></Button>} */}
             {os === 'Mac' && <Button asChild><Link href={downloadUrls.macOS}>Download for Apple MacOS</Link></Button>}
-            {os === 'Linux' && <Button asChild><Link href={downloadUrls.linux}>Download para Linux</Link></Button>}
+            {/* {os === 'Linux' && <Button asChild><Link href={downloadUrls.linux}>Download para Linux</Link></Button>} */}
             {os === 'Android' && <Button asChild><Link href={downloadUrls.android}>Download para Android</Link></Button>}
             {os === 'iOS' && <Button asChild><Link href={downloadUrls.ios}>Download para iOS</Link></Button>}
             {os === 'Outro' && <Button asChild><Link href="/downloads">Download</Link></Button>}

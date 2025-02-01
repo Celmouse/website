@@ -13,12 +13,12 @@ export default function Page() {
                         <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">Download Celmouse</h2>
                         <Tabs defaultValue="mobile" className="w-full max-w-2xl mx-auto">
                             <TabsList className="grid w-full grid-cols-4">
-                                <TabsTrigger value="windows">Windows {"(BETA)"}</TabsTrigger>
+                                {/* <TabsTrigger value="windows">Windows {"(BETA)"}</TabsTrigger> */}
                                 <TabsTrigger value="mac">Mac</TabsTrigger>
-                                <TabsTrigger value="linux">Linux</TabsTrigger>
+                                {/* <TabsTrigger value="linux">Linux</TabsTrigger> */}
                                 <TabsTrigger value="mobile">Apps</TabsTrigger>
                             </TabsList>
-                            <TabsContent value="windows" className="mt-6">
+                            {/* <TabsContent value="windows" className="mt-6">
                                 <Card>
                                     <CardHeader>
                                         <CardTitle>Windows Download {"(BETA)"}</CardTitle>
@@ -28,7 +28,7 @@ export default function Page() {
                                         <Button asChild><Link href={downloadUrls.win}>Download for Windows</Link></Button>
                                     </CardContent>
                                 </Card>
-                            </TabsContent>
+                            </TabsContent> */}
                             <TabsContent value="mac" className="mt-6">
                                 <Card>
                                     <CardHeader>
@@ -40,7 +40,7 @@ export default function Page() {
                                     </CardContent>
                                 </Card>
                             </TabsContent>
-                            <TabsContent value="linux" className="mt-6">
+                            {/* <TabsContent value="linux" className="mt-6">
                                 <Card>
                                     <CardHeader>
                                         <CardTitle>Linux Download</CardTitle>
@@ -50,7 +50,7 @@ export default function Page() {
                                         <Button asChild><Link href={downloadUrls.linux}>Download for Linux</Link></Button>
                                     </CardContent>
                                 </Card>
-                            </TabsContent>
+                            </TabsContent> */}
                             <TabsContent value="mobile" className="mt-6">
                                 <Card>
                                     <CardHeader>
