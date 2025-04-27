@@ -10,9 +10,9 @@ export function DownloadButton() {
 
     useEffect(() => {
         const userAgent = window.navigator.userAgent;
-        if (/Windows/i.test(userAgent)) {
-            setOs('Windows');
-        } else 
+        // if (/Windows/i.test(userAgent)) {
+        //     setOs('Windows');
+        // } else 
         if (/Mac/i.test(userAgent)) {
             setOs('Mac');
         } 
@@ -32,7 +32,7 @@ export function DownloadButton() {
 
     return (
         <div>
-            {os === 'Windows' && <Button asChild><Link href={downloadUrls.win}>Download for Windows</Link></Button>}
+{/*             {os === 'Windows' && <Button asChild><Link href={downloadUrls.win}>Download for Windows</Link></Button>} */}
             {os === 'Mac' && <Button asChild><Link href={downloadUrls.macOS}>Download for Apple MacOS</Link></Button>}
             {/* {os === 'Linux' && <Button asChild><Link href={downloadUrls.linux}>Download para Linux</Link></Button>} */}
             {os === 'Android' && <Button asChild><Link href={downloadUrls.android}>Download para Android</Link></Button>}
